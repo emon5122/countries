@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@nexisltd/country':
+    specifier: ^0.1.0
+    version: 0.1.0
+
 devDependencies:
   '@cloudflare/workers-types':
     specifier: ^4.20230419.0
@@ -292,6 +297,11 @@ packages:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
     dev: true
+
+  /@nexisltd/country@0.1.0:
+    resolution: {integrity: sha512-oW+JFM8r4X+oLyj8kSBSvJYEwnwkT8cxmW4VgQJELLEKIKtCRsFESumb5T8fU+5d9QS/GvxqNSofbN5uE/ftKA==}
+    engines: {node: '>=16.0.0'}
+    dev: false
 
   /acorn-walk@8.2.0:
     resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
